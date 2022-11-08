@@ -1,0 +1,53 @@
+
+@use './variables';
+// Reset Default Styles
+
+:root {
+    font-size: 62.5%; //1rem = 10px
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-green-primary);
+}
+
+html {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-green-primary);
+}
+
+a {
+    &:active,
+    &:visited,
+    &:link {
+      color: var(--color-green-primary);
+      list-style: none;
+      text-decoration: none;
+    }
+
+
+}
+
+.container {
+    width: 75%;
+    margin: 5vh auto;
+}
+
+.heading {
+    font-family: 'VT323', monospace;
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 4.5rem;
+
+}

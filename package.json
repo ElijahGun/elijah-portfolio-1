@@ -1,0 +1,14 @@
+{
+  "name": "elijah-portfolio-1",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch sass/main.scss:css/styles.css"
+  },
+  "author": "Elijah Gundorin",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.0"
+  }
+}

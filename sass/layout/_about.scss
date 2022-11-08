@@ -1,0 +1,73 @@
+.about {
+  &-heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  &-contentbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &--left {
+      width: 60%;
+    }
+
+    &--right {
+      background-color: greenyellow;
+      width: 30%;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 1.5rem 1.5rem rgb(black, .5);
+    }
+  }
+
+  &-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &-text {
+    font-size: 2rem;
+
+    &-p {
+        line-height: 4.5rem;
+    }
+  }
+
+  &-innerbox {
+  }
+
+  //INNER SECTION
+  &-innerbox {
+    display: flex;
+
+    &--left--line {
+        border-left: .2rem solid var(--color-green-primary);
+        width: 2rem;
+        margin-right: 5rem;
+    }
+
+    &--bottom-line {
+        border-bottom: .2rem solid var(--color-green-primary);
+        width: 100%;
+        height: 5rem;
+
+    }
+
+    &--right {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+}
+
+
+.photo-me {
+  background-image: url(../../assets/elijah.png);
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+}
