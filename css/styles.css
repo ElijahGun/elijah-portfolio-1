@@ -397,7 +397,15 @@ p {
   float: left;
   margin-right: 4rem;
   box-shadow: 0 0.5rem 1rem var(--color-green-primary);
+  transition: all 0.2s ease;
 }
+.my-work__project-pic:hover {
+  transform: scale(1.05) skew(0.01turn, -2deg);
+}
+.my-work__link:visited, .my-work__link:link, .my-work__link:active {
+  text-decoration: underline;
+}
+
 .svg-down {
   height: 2rem;
   fill: var(--color-green-primary);
