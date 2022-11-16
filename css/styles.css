@@ -1,9 +1,10 @@
 :root {
   --color-green-primary: #32E62B;
   --color-background: #3B3942;
-  --margin-bottom-primary: 6rem;
+  --margin-bottom-primary: 11rem;
   --margin-bottom-section: 12vh;
   --section-height: 85vh;
+  --section-min-height: 60vh;
 }
 
 :root {
@@ -181,7 +182,6 @@ p {
 .header-container {
   min-height: var(--section-height);
   position: relative;
-  margin-bottom: var(--margin-bottom-section);
 }
 .header-textbox {
   margin-bottom: 1rem;
@@ -255,15 +255,6 @@ p {
   margin-bottom: 10rem;
 }
 
-.svg-down {
-  height: 2rem;
-  fill: var(--color-green-primary);
-  cursor: pointer;
-  position: absolute;
-  bottom: 11rem;
-  width: 100%;
-}
-
 .svg-down-1 {
   opacity: 0;
   animation: appear 1s ease 4.5s forwards;
@@ -282,7 +273,7 @@ p {
 }
 
 .about {
-  min-height: var(--section-height);
+  min-height: var(--section-min-height);
   margin-bottom: var(--margin-bottom-section);
 }
 .about-heading {
@@ -346,8 +337,47 @@ p {
   position: relative;
 }
 
+.tech-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.tech-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 8rem);
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tech {
+  position: relative;
+}
+
+.svg-tech {
+  height: 7rem;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.2s ease-out;
+}
+.svg-tech:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.svg-express {
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.svg-express:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
 .my-work {
-  height: var(--section-height);
+  min-height: var(--section-min-height);
   margin-bottom: var(--margin-bottom-section);
 }
 .my-work__heading {
@@ -367,6 +397,19 @@ p {
   float: left;
   margin-right: 4rem;
   box-shadow: 0 0.5rem 1rem var(--color-green-primary);
+}
+.svg-down {
+  height: 2rem;
+  fill: var(--color-green-primary);
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: var(--margin-bottom-primary);
+}
+
+.svg-down-1 {
+  position: absolute;
+  bottom: 11rem;
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

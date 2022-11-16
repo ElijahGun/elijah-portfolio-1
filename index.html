@@ -1,98 +1,686 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">     <title>Elijah Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <title>Elijah Portfolio</title>
     <script defer src="index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <!-- Nav -->
-        <nav class="nav">
-            <ul class="nav-list">
-                <a href="#about" class="nav-link"><li class="nav-item hover">About</li></a>
-                <a href="#work" class="nav-link"><li class="nav-item hover">Work</li></a>
-                <a href="#contact" class="nav-link"><li class="nav-item hover">Get In Touch</li></a>
-            </ul>
-        </nav>
-        <div class="header-container">
+      <!-- Nav -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <a href="#about" class="nav-link"><li class="nav-item hover">About</li></a>
+          <a href="#work" class="nav-link"><li class="nav-item hover">Work</li></a>
+          <a href="#contact" class="nav-link"><li class="nav-item hover">Get In Touch</li></a>
+        </ul>
+      </nav>
+      <div class="header-container">
         <!-- Header -->
         <header class="header">
-            <div class="header-textbox">
-                <h1 class="header-heading heading">
-                    <span class="header-heading--top">Let's Build It ...</span>
-                    <span class="header-heading--bottom">Together.</span>
-                </h1>
-    
+          <div class="header-textbox">
+            <h1 class="header-heading heading">
+              <span class="header-heading--top">Let's Build It ...</span>
+              <span class="header-heading--bottom">Together.</span>
+            </h1>
+          </div>
+          <div class="header-bottom">
+            <div class="line-left"></div>
+            <div class="line-bottom">
+              <svg
+                class="svg-right"
+                xmlns="http://www.w3.org/2000/svg"
+                xml:space="preserve"
+                width="512"
+                height="298"
+                shape-rendering="geometricPrecision"
+                text-rendering="geometricPrecision"
+                image-rendering="optimizeQuality"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                viewBox="0 0 512 298.04"
+              >
+                <path
+                  fill-rule="nonzero"
+                  d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"
+                />
+              </svg>
             </div>
-            <div class="header-bottom">
-                <div class="line-left"></div>
-                <div class="line-bottom">
-                    <svg class="svg-right" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="298" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"/></svg>
-                </div>
-                <div class="header-bottom-textbox">
-                    <a class="header-bottom--text" href="">contact</a>
-                </div>
+            <div class="header-bottom-textbox">
+              <a class="header-bottom--text" href="">contact</a>
             </div>
+          </div>
         </header>
 
-                <svg class="svg-down svg-down-1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="298" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 298.04"> <a href="#about">  <path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"/> </a></svg>
-
-
-    </div>
-        <!-- About Section -->
-        <section id="about" class="about hidden">
-            <h2 class="about-heading heading">About Elijah</h2>
-            <div class="about-contentbox">
-                <div class="about-contentbox--left">
-                    <h3 class="about-title ">&lt; Hello World! / &gt;</h3>
-                    <div class="about-innerbox">
-                        <div class="about-innerbox--left--line"></div>
-                        <div class="about-innerbox--right">
-                            <div class="about-text">
-                                <p class="about-text-p">My Name is Elijah Gundorin. I am passionate about programming. For the past 2 years I have been learning and developing skills to contribute to the world. Checkout some of my work or contact me to see how we can make awesome things together!</p>
-                            </div>
-                            <div class="about-innerbox--bottom-line"></div>
-                        </div>
-                    </div>
+        <svg
+          class="svg-down svg-down-1"
+          xmlns="http://www.w3.org/2000/svg"
+          xml:space="preserve"
+          width="512"
+          height="298"
+          shape-rendering="geometricPrecision"
+          text-rendering="geometricPrecision"
+          image-rendering="optimizeQuality"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          viewBox="0 0 512 298.04"
+        >
+          <a href="#about">
+            <path
+              fill-rule="nonzero"
+              d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"
+            />
+          </a>
+        </svg>
+      </div>
+      <!-- About Section -->
+      <section id="about" class="about hidden">
+        <h2 class="about-heading heading">About Elijah</h2>
+        <div class="about-contentbox">
+          <div class="about-contentbox--left">
+            <h3 class="about-title">&lt; Hello World! / &gt;</h3>
+            <div class="about-innerbox">
+              <div class="about-innerbox--left--line"></div>
+              <div class="about-innerbox--right">
+                <div class="about-text">
+                  <p class="about-text-p">
+                    My Name is Elijah Gundorin. I am passionate about programming. For the past 2
+                    years I have been learning and developing skills to contribute to the world.
+                    Checkout some of my work or contact me to see how we can make awesome things
+                    together!
+                  </p>
                 </div>
-                <div class="about-contentbox--right">
-                    <div class="photo-me"></div>
-                </div>
+                <div class="about-innerbox--bottom-line"></div>
+              </div>
             </div>
-                
-                <svg class="svg-down svg-down-2 hidden" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="298" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 298.04"> <a href="#work"> <path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"/></a></svg>
+          </div>
+          <div class="about-contentbox--right">
+            <div class="photo-me"></div>
+          </div>
+        </div>
+        <h2 class="tech-title">Technologies I Have Worked With:</h2>
+        <div class="tech-box">
+          <!-- HTML5 SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-html5"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 108.35 122.88"
+              style="enable-background: new 0 0 108.35 122.88"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .html-svg--back {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #e44d26;
+                }
+                .html-svg--left {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #f16529;
+                }
+                .html-svg--tleft {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #ebebeb;
+                }
+                .html-svg--tright {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #ffffff;
+                }
+              </style>
+              <g>
+                <polygon
+                  class="html-svg--back"
+                  points="108.35,0 98.48,110.58 54.11,122.88 9.86,110.6 0,0 108.35,0"
+                />
+                <polygon
+                  class="html-svg--left"
+                  points="54.17,113.48 90.03,103.54 98.46,9.04 54.17,9.04 54.17,113.48"
+                />
+                <path
+                  class="html-svg--tleft"
+                  d="M34.99,36.17h19.19V22.61H20.16l0.32,3.64l3.33,37.38h30.35V50.06H36.23L34.99,36.17L34.99,36.17L34.99,36.17z M38.04,70.41H24.43l1.9,21.3l27.79,7.71l0.06-0.02V85.29l-0.06,0.02l-15.11-4.08L38.04,70.41L38.04,70.41L38.04,70.41z"
+                />
+                <path
+                  class="html-svg--tright"
+                  d="M54.13,63.63h16.7l-1.57,17.59L54.13,85.3v14.11l27.81-7.71l0.2-2.29l3.19-35.71l0.33-3.64H54.13V63.63 L54.13,63.63z M54.13,36.14v0.03h32.76l0.27-3.05l0.62-6.88l0.32-3.64H54.13V36.14L54.13,36.14L54.13,36.14z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- CSS3 SVG -->
+          <div class="tech">
+            <svg
+              class="svg-tech svg-css3"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 296297 333333"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <defs>
+                <linearGradient
+                  id="id4"
+                  gradientUnits="userSpaceOnUse"
+                  x1="54128.7"
+                  y1="79355.5"
+                  x2="240318"
+                  y2="79355.5"
+                >
+                  <stop offset="0" stop-color="#e8e7e5" />
+                  <stop offset="1" stop-color="#fff" />
+                </linearGradient>
+                <linearGradient
+                  id="id5"
+                  gradientUnits="userSpaceOnUse"
+                  x1="62019.3"
+                  y1="202868"
+                  x2="233515"
+                  y2="202868"
+                >
+                  <stop offset="0" stop-color="#e8e7e5" />
+                  <stop offset="1" stop-color="#fff" />
+                </linearGradient>
+                <linearGradient
+                  id="id6"
+                  gradientUnits="userSpaceOnUse"
+                  x1="104963"
+                  y1="99616.9"
+                  x2="104963"
+                  y2="171021"
+                >
+                  <stop offset="0" stop-color="#d1d3d4" />
+                  <stop offset=".388" stop-color="#d1d3d4" />
+                  <stop offset="1" stop-color="#d1d3d4" />
+                </linearGradient>
+                <linearGradient
+                  id="id7"
+                  gradientUnits="userSpaceOnUse"
+                  xlink:href="#id6"
+                  x1="194179"
+                  y1="61185.8"
+                  x2="194179"
+                  y2="135407"
+                />
+                <mask id="id0">
+                  <linearGradient
+                    id="id1"
+                    gradientUnits="userSpaceOnUse"
+                    x1="104963"
+                    y1="99616.9"
+                    x2="104963"
+                    y2="171021"
+                  >
+                    <stop offset="0" stop-opacity="0" stop-color="#fff" />
+                    <stop offset=".388" stop-color="#fff" />
+                    <stop offset="1" stop-opacity=".831" stop-color="#fff" />
+                  </linearGradient>
+                  <path fill="url(#id1)" d="M61737 99467h86453v71704H61737z" />
+                </mask>
+                <mask id="id2">
+                  <linearGradient
+                    id="id3"
+                    gradientUnits="userSpaceOnUse"
+                    x1="194179"
+                    y1="61185.8"
+                    x2="194179"
+                    y2="135407"
+                  >
+                    <stop offset="0" stop-opacity="0" stop-color="#fff" />
+                    <stop offset=".388" stop-color="#fff" />
+                    <stop offset="1" stop-opacity=".831" stop-color="#fff" />
+                  </linearGradient>
+                  <path fill="url(#id3)" d="M147890 61036h92578v74521h-92578z" />
+                </mask>
+                <style>
+                  .fil6 {
+                    fill: #000;
+                    fill-opacity: 0.05098;
+                  }
+                </style>
+              </defs>
+              <g id="Layer_x0020_1">
+                <g id="_513085304">
+                  <path fill="#2062af" d="M268517 300922l-120369 32411-120371-32411L0 0h296297z" />
+                  <path fill="#3c9cd7" d="M148146 24374v283109l273 74 97409-26229 22485-256954z" />
+                  <path
+                    fill="#fff"
+                    d="M148040 99617l-86153 35880 2857 35524 83296-35614 88604-37883 3674-36339-92278 38432z"
+                  />
+                  <path
+                    mask="url(#id0)"
+                    fill="url(#id6)"
+                    d="M61887 135497l2857 35524 83295-35614V99617z"
+                  />
+                  <path
+                    mask="url(#id2)"
+                    fill="url(#id7)"
+                    d="M240318 61186l-92278 38431v35790l88604-37883z"
+                  />
+                  <path
+                    fill="url(#id5)"
+                    d="M62019 135497l2858 35524 127806 407-2859 47365-42055 11840-40428-10208-2450-29399H67327l4900 56756 75950 22457 75538-22050 9800-112692z"
+                  />
+                  <path
+                    class="fil6"
+                    d="M148040 135497H61888l2857 35524 83295 266v-35790zm0 95022l-408 114-40422-10208-2450-29399H67197l4899 56756 75944 22457v-39720z"
+                  />
+                  <path fill="url(#id4)" d="M54129 61186h186189l-3674 36339H58620l-4491-36339z" />
+                  <path class="fil6" d="M148040 61186H54129l4491 36339h89420z" />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <!-- JS SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-js"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 122.88 122.88"
+              style="enable-background: new 0 0 122.88 122.88"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .svg-js--back {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #f7df1e;
+                }
+                .svg-js--text {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                }
+              </style>
+              <g>
+                <polygon class="svg-js--back" points="0,0 122.88,0 122.88,122.88 0,122.88 0,0" />
+                <path
+                  class="svg-js--text"
+                  d="M32.31,102.69l9.4-5.69c1.81,3.22,3.46,5.94,7.42,5.94c3.79,0,6.19-1.48,6.19-7.26V56.41h11.55v39.43 c0,11.96-7.01,17.4-17.24,17.4C40.39,113.24,35.03,108.46,32.31,102.69L32.31,102.69L32.31,102.69z M73.14,101.45l9.4-5.44 c2.48,4.04,5.69,7.01,11.38,7.01c4.78,0,7.84-2.39,7.84-5.69c0-3.96-3.13-5.36-8.41-7.67l-2.89-1.24c-8.33-3.55-13.86-8-13.86-17.4 c0-8.66,6.6-15.26,16.91-15.26c7.34,0,12.62,2.56,16.41,9.24l-8.99,5.77c-1.98-3.55-4.12-4.95-7.42-4.95 c-3.38,0-5.53,2.14-5.53,4.95c0,3.46,2.14,4.87,7.09,7.01l2.89,1.24c9.82,4.21,15.34,8.5,15.34,18.15 c0,10.39-8.17,16.08-19.14,16.08C83.45,113.25,76.52,108.13,73.14,101.45L73.14,101.45L73.14,101.45z M73.14,101.45L73.14,101.45 L73.14,101.45L73.14,101.45z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- React SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-react"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 122.88 109.43"
+              style="enable-background: new 0 0 122.88 109.43"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .svg-react--back {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #00d8ff;
+                }
+              </style>
+              <g>
+                <path
+                  class="svg-react--back"
+                  d="M122.88,54.73c0-8.14-10.19-15.85-25.82-20.64c3.61-15.93,2-28.6-5.06-32.66c-1.63-0.95-3.53-1.4-5.61-1.4 v5.59c1.15,0,2.08,0.23,2.86,0.65c3.41,1.95,4.88,9.39,3.73,18.96c-0.28,2.35-0.73,4.83-1.28,7.36c-4.91-1.2-10.27-2.13-15.9-2.73 c-3.38-4.63-6.89-8.84-10.42-12.52C73.54,9.74,81.2,5.59,86.41,5.59V0l0,0c-6.89,0-15.9,4.91-25.02,13.43 C52.27,4.96,43.26,0.1,36.37,0.1v5.59c5.18,0,12.87,4.13,21.04,11.67c-3.51,3.68-7.01,7.86-10.34,12.5 c-5.66,0.6-11.02,1.53-15.93,2.75c-0.58-2.5-1-4.93-1.3-7.26c-1.18-9.57,0.28-17.01,3.66-18.99c0.75-0.45,1.73-0.65,2.88-0.65V0.13 l0,0c-2.1,0-4.01,0.45-5.66,1.4c-7.04,4.06-8.62,16.71-4.98,32.59C10.14,38.92,0,46.61,0,54.73c0,8.14,10.19,15.85,25.82,20.64 c-3.61,15.93-2,28.6,5.06,32.66c1.63,0.95,3.53,1.4,5.64,1.4c6.89,0,15.9-4.91,25.02-13.43c9.12,8.47,18.13,13.33,25.02,13.33 c2.1,0,4.01-0.45,5.66-1.4c7.04-4.06,8.62-16.71,4.98-32.59C112.74,70.56,122.88,62.84,122.88,54.73L122.88,54.73z M72.86,54.73 c0-6.32-5.12-11.45-11.45-11.45c-6.32,0-11.45,5.12-11.45,11.45s5.12,11.45,11.45,11.45C67.74,66.17,72.86,61.05,72.86,54.73 L72.86,54.73z M36.34,0.1L36.34,0.1L36.34,0.1L36.34,0.1z M90.27,38.02c-0.93,3.23-2.08,6.56-3.38,9.89c-1.03-2-2.1-4.01-3.28-6.01 c-1.15-2-2.38-3.96-3.61-5.86C83.56,36.57,86.99,37.22,90.27,38.02L90.27,38.02z M78.8,64.7c-1.95,3.38-3.96,6.59-6.04,9.57 c-3.73,0.33-7.51,0.5-11.32,0.5c-3.78,0-7.56-0.18-11.27-0.48c-2.08-2.98-4.11-6.16-6.06-9.52c-1.9-3.28-3.63-6.61-5.21-9.97 c1.55-3.36,3.31-6.71,5.18-9.99c1.95-3.38,3.96-6.59,6.04-9.57c3.73-0.33,7.51-0.5,11.32-0.5c3.78,0,7.56,0.18,11.27,0.48 c2.08,2.98,4.11,6.16,6.06,9.52c1.9,3.28,3.63,6.61,5.21,9.97C82.4,58.06,80.68,61.41,78.8,64.7L78.8,64.7z M86.89,61.44 c1.35,3.36,2.5,6.71,3.46,9.97c-3.28,0.8-6.74,1.48-10.32,2c1.23-1.93,2.45-3.91,3.61-5.94C84.78,65.47,85.86,63.44,86.89,61.44 L86.89,61.44z M61.49,88.16c-2.33-2.4-4.66-5.08-6.96-8.01c2.25,0.1,4.56,0.18,6.89,0.18c2.35,0,4.68-0.05,6.96-0.18 C66.12,83.08,63.79,85.76,61.49,88.16L61.49,88.16z M42.86,73.41c-3.56-0.53-6.99-1.18-10.27-1.98c0.93-3.23,2.08-6.56,3.38-9.89 c1.03,2,2.1,4.01,3.28,6.01C40.43,69.56,41.63,71.51,42.86,73.41L42.86,73.41z M61.36,21.29c2.33,2.4,4.66,5.08,6.96,8.01 c-2.25-0.1-4.56-0.18-6.89-0.18c-2.35,0-4.68,0.05-6.96,0.18C56.73,26.37,59.06,23.69,61.36,21.29L61.36,21.29z M42.83,36.04 c-1.23,1.93-2.45,3.91-3.61,5.94c-1.15,2-2.23,4.01-3.26,6.01c-1.35-3.36-2.5-6.71-3.46-9.97C35.79,37.24,39.25,36.57,42.83,36.04 L42.83,36.04z M20.16,67.4c-8.87-3.78-14.6-8.74-14.6-12.67c0-3.93,5.74-8.92,14.6-12.67c2.15-0.93,4.51-1.75,6.94-2.53 c1.43,4.91,3.31,10.02,5.64,15.25c-2.3,5.21-4.16,10.29-5.56,15.18C24.7,69.18,22.34,68.33,20.16,67.4L20.16,67.4z M33.64,103.19 c-3.41-1.95-4.88-9.39-3.73-18.96c0.28-2.35,0.73-4.83,1.28-7.36c4.91,1.2,10.27,2.13,15.9,2.73c3.38,4.63,6.89,8.84,10.42,12.52 c-8.17,7.59-15.83,11.75-21.04,11.75C35.34,103.84,34.39,103.62,33.64,103.19L33.64,103.19z M93.05,84.11 c1.18,9.57-0.28,17.01-3.66,18.99c-0.75,0.45-1.73,0.65-2.88,0.65c-5.18,0-12.87-4.13-21.04-11.67c3.51-3.68,7.01-7.86,10.34-12.5 c5.66-0.6,11.02-1.53,15.93-2.76C92.32,79.35,92.77,81.78,93.05,84.11L93.05,84.11z M102.69,67.4c-2.15,0.93-4.51,1.75-6.94,2.53 c-1.43-4.91-3.31-10.02-5.64-15.25c2.3-5.21,4.16-10.29,5.56-15.18c2.48,0.78,4.83,1.63,7.04,2.55c8.87,3.78,14.6,8.74,14.6,12.67 C117.29,58.66,111.56,63.64,102.69,67.4L102.69,67.4z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- Node SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-node"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 109 122.88"
+              style="enable-background: new 0 0 109 122.88"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .svg-node--back {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #689f63;
+                }
+              </style>
+              <g>
+                <path
+                  class="svg-node--back"
+                  d="M68.43,87.08c-19.7,0-23.83-9.04-23.83-16.63c0-0.72,0.58-1.3,1.3-1.3h5.82c0.64,0,1.18,0.47,1.28,1.1 c0.88,5.93,3.49,8.92,15.41,8.92c9.49,0,13.52-2.14,13.52-7.18c0-2.9-1.15-5.05-15.89-6.49c-12.33-1.22-19.95-3.93-19.95-13.8 c0-9.08,7.66-14.49,20.5-14.49c14.42,0,21.56,5,22.46,15.76c0.03,0.37-0.1,0.73-0.35,1c-0.25,0.26-0.6,0.42-0.96,0.42H81.9 c-0.61,0-1.14-0.43-1.26-1.01c-1.41-6.23-4.81-8.23-14.07-8.23c-10.36,0-11.56,3.61-11.56,6.31c0,3.28,1.42,4.24,15.4,6.09 c13.84,1.84,20.41,4.43,20.41,14.16c0,9.81-8.18,15.43-22.45,15.43L68.43,87.08L68.43,87.08z M54.52,122.88 c-1.65,0-3.28-0.43-4.72-1.26l-15.03-8.9c-2.25-1.26-1.15-1.7-0.41-1.96c2.99-1.05,3.6-1.28,6.8-3.1c0.34-0.19,0.78-0.12,1.12,0.08 l11.55,6.85c0.42,0.23,1.01,0.23,1.4,0l45.03-25.99c0.42-0.24,0.69-0.72,0.69-1.22V35.43c0-0.52-0.27-0.98-0.7-1.24L55.23,8.22 c-0.42-0.25-0.97-0.25-1.39,0l-45,25.97c-0.44,0.25-0.71,0.73-0.71,1.23v51.96c0,0.5,0.27,0.97,0.7,1.21l12.33,7.12 c6.69,3.35,10.79-0.6,10.79-4.56V39.86c0-0.73,0.57-1.3,1.31-1.3l5.7,0c0.71,0,1.3,0.56,1.3,1.3v51.31 c0,8.93-4.87,14.05-13.33,14.05c-2.6,0-4.66,0-10.38-2.82L4.72,95.59C1.8,93.9,0,90.75,0,87.38V35.42c0-3.38,1.8-6.54,4.72-8.21 l45.07-26c2.85-1.61,6.64-1.61,9.47,0l45.02,26.01c2.91,1.68,4.72,4.82,4.72,8.21v51.96c0,3.37-1.81,6.51-4.72,8.21l-45.02,26 c-1.44,0.83-3.08,1.26-4.74,1.26L54.52,122.88L54.52,122.88z M54.52,122.88L54.52,122.88L54.52,122.88L54.52,122.88z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- MongoDB SVG -->
+          <div class="tech">
+            <svg
+              class="svg-tech svg-mongo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 598.88 1333.33"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <g fill-rule="nonzero">
+                <path
+                  d="M295.27 3.65l35.58 66.83c8 12.33 16.67 23.25 26.87 33.42 29.79 29.79 58.08 60.99 83.5 94.41 60.28 79.16 100.95 167.07 129.98 262.14 17.42 58.08 26.87 117.66 27.58 177.9 2.91 180.11-58.83 334.76-183.31 463.28-20.33 20.33-42.08 39.16-65.41 55.91-12.33 0-18.17-9.46-23.25-18.16-9.45-15.96-15.25-34.17-18.16-52.29-4.38-21.8-7.25-43.58-5.83-66.08v-10.16c-1-2.17-11.87-1002.07-7.54-1007.19v.01z"
+                  fill="#599636"
+                />
+                <path
+                  d="M295.27 1.43c-1.46-2.91-2.91-.71-4.38.71.71 14.58-4.38 27.58-12.33 40-8.75 12.33-20.33 21.8-31.96 31.96-64.57 55.91-115.4 123.45-156.11 198.98C36.33 374.74 8.41 483.68.5 598.38c-3.62 41.37 13.09 187.36 26.13 229.48 35.58 111.82 99.49 205.52 182.27 286.84 20.33 19.58 42.08 37.74 64.58 55.2 6.54 0 7.25-5.83 8.74-10.17 2.85-9.28 5.06-18.76 6.54-28.34l14.58-108.9L295.26 1.43z"
+                  fill="#6cac48"
+                />
+                <path
+                  d="M330.85 1201.77c1.46-16.67 9.46-30.5 18.17-44.29-8.75-3.62-15.25-10.83-20.33-18.87-4.38-7.25-8-15.96-10.83-23.96-10.17-30.5-12.33-62.5-15.25-93.66v-18.87c-3.62 2.91-4.38 27.58-4.38 31.25-2.03 32.85-6.54 65.8-13.08 98.05-2.17 13.08-3.62 26.12-11.67 37.74 0 1.46 0 2.91.71 5.09 13.08 38.5 16.67 77.7 18.87 117.66v14.58c0 17.41-.71 13.74 13.75 19.58 5.83 2.17 12.33 2.91 18.16 7.25 4.38 0 5.09-3.62 5.09-6.54l-2.17-23.96v-66.83c-.71-11.67 1.46-23.25 2.91-34.16l.05-.06z"
+                  fill="#c2bfbf"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- Express SVG -->
+          <div class="tech">
+            <svg
+              class="svg-tech svg-express"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1333.33 773.55"
+              shape-rendering="geometricPrecision"
+              text-rendering="geometricPrecision"
+              image-rendering="optimizeQuality"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M1333.33 753.49c-48.5 12.33-78.5.54-105.41-39.87L1036.5 448.79l-27.67-36.67L785.29 714.5c-25.54 36.38-52.33 52.2-100 39.33l286.25-384.25-266.5-347.09c45.83-8.91 77.5-4.38 105.62 36.67l198.54 268.13 200-266.67c25.62-36.38 53.17-50.2 99.17-36.8l-103.33 137-140 182.29c-16.67 20.83-14.38 35.09.96 55.2l267.33 355.18zM.34 363.16l23.41-115.17c63.75-227.92 325-322.63 505.17-181.8 105.29 82.83 131.46 200 126.25 331.25H61.67C52.76 633.69 222.8 776.27 439.58 703.53c76.04-25.54 120.83-85.09 143.25-159.58 11.38-37.33 30.2-43.17 65.29-32.5-17.91 93.17-58.33 171-143.75 219.71-127.62 72.91-309.8 49.33-405.62-52C41.66 620.36 18.08 545.87 7.5 466.2c-1.67-13.17-5-25.71-7.5-38.33.22-21.56.34-43.11.34-64.67v-.04zm62.41-15.83h536.33c-3.5-170.83-109.87-292.17-255.25-293.2-159.58-1.25-274.17 117.2-281.09 293.2h.01z"
+                fill-rule="nonzero"
+              />
+            </svg>
+          </div>
+          <!-- Firebase SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-firebase"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 95.39 131.07"
+              style="enable-background: new 0 0 95.39 131.07"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .svg-firebase--1 {
+                  fill: #ffa000;
+                }
+                .svg-firebase--2 {
+                  fill: #f57c00;
+                }
+                .svg-firebase--3 {
+                  fill: #ffca28;
+                }
+                .svg-firebase--4 {
+                  fill: #ffffff;
+                  fill-opacity: 0.2;
+                }
+                .svg-firebase--5 {
+                  opacity: 0.2;
+                  fill: #a52714;
+                  enable-background: new;
+                }
+                .svg-firebase--6 {
+                  fill: url(#b_1_);
+                }
+              </style>
+              <path
+                class="svg-firebase--1"
+                d="M0.05,105.75L16.18,2.52c0.2-1.27,1.18-2.26,2.44-2.48s2.52,0.4,3.13,1.53l16.68,31.12l6.65-12.66	c0.51-0.98,1.53-1.59,2.64-1.59s2.12,0.61,2.64,1.59l45.02,85.72L0.05,105.75L0.05,105.75z"
+              />
+              <path class="svg-firebase--2" d="M55.78,65.54L38.43,32.68L0.05,105.75L55.78,65.54z" />
+              <path
+                class="svg-firebase--3"
+                d="M95.39,105.75L83.03,29.29c-0.19-1.1-0.97-2-2.03-2.34s-2.22-0.06-3.01,0.73L0.05,105.75l43.12,24.18	c2.71,1.51,6.01,1.51,8.71,0L95.39,105.75L95.39,105.75z"
+              />
+              <path
+                class="svg-firebase--4"
+                d="M83.03,29.29c-0.19-1.1-0.97-2-2.03-2.34s-2.22-0.06-3.01,0.73L62.52,43.19L50.36,20.03	c-0.51-0.98-1.53-1.59-2.64-1.59s-2.12,0.61-2.64,1.59l-6.65,12.66L21.75,1.57c-0.6-1.13-1.87-1.75-3.13-1.53s-2.25,1.22-2.44,2.48	L0.05,105.75H0l0.05,0.06l0.42,0.21l77.49-77.58c0.79-0.79,1.95-1.08,3.02-0.74s1.85,1.24,2.03,2.35l12.25,75.77l0.12-0.07	L83.03,29.29L83.03,29.29z M0.19,105.61L16.18,3.26c0.19-1.27,1.18-2.27,2.44-2.48s2.52,0.4,3.13,1.53l16.68,31.12l6.65-12.66	c0.51-0.98,1.53-1.59,2.64-1.59s2.12,0.61,2.64,1.59l11.92,22.66L0.19,105.61L0.19,105.61z"
+              />
+              <path
+                class="svg-firebase--5"
+                d="M51.89,129.2c-2.71,1.51-6.01,1.51-8.71,0L0.16,105.09l-0.1,0.66l43.12,24.18c2.71,1.51,6.01,1.51,8.71,0	l43.5-24.18l-0.11-0.69L51.89,129.2L51.89,129.2z"
+              />
+              <g>
+                <linearGradient
+                  id="b_1_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-243.4794"
+                  y1="345.2798"
+                  x2="-242.4362"
+                  y2="344.521"
+                  gradientTransform="matrix(95 0 0 -130.9998 23127.4414 45253.9336)"
+                >
+                  <stop offset="0" style="stop-color: #ffffff; stop-opacity: 0.1" />
+                  <stop offset="0.14" style="stop-color: #ffffff; stop-opacity: 0.08" />
+                  <stop offset="0.61" style="stop-color: #ffffff; stop-opacity: 0.02" />
+                  <stop offset="1" style="stop-color: #ffffff; stop-opacity: 0" />
+                </linearGradient>
+                <path
+                  id="b"
+                  class="svg-firebase--6"
+                  d="M82.91,29.3c-0.19-1.1-0.97-2-2.02-2.34c-1.06-0.34-2.21-0.06-3,0.73L62.47,43.2L50.35,20.05 c-0.51-0.98-1.53-1.59-2.63-1.59s-2.11,0.61-2.63,1.59l-6.63,12.66L21.84,1.6c-0.6-1.13-1.86-1.75-3.12-1.53s-2.24,1.22-2.43,2.48 L0.22,105.73l42.97,24.17c2.7,1.51,5.99,1.51,8.68,0l43.34-24.17L82.91,29.3L82.91,29.3z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- Python SVG -->
+          <div class="tech">
+            <?xml version="1.0" encoding="utf-8"?><svg
+              class="svg-tech svg-python"
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 121.54 122.88"
+              style="enable-background: new 0 0 121.54 122.88"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .svg-python--1 {
+                  clip-path: url(#SVGID_2_);
+                }
+                .svg-python--2 {
+                  clip-path: url(#SVGID_6_);
+                }
+              </style>
+              <g>
+                <g>
+                  <defs>
+                    <path
+                      id="SVGID_1_"
+                      d="M60.04,0c-5.01,0.02-9.8,0.45-14.01,1.2C33.63,3.39,31.38,7.98,31.38,16.44v11.17h29.32v3.72H31.38h-11 c-8.52,0-15.98,5.12-18.31,14.86c-2.69,11.17-2.81,18.13,0,29.79c2.08,8.68,7.06,14.86,15.58,14.86h10.08V77.46 c0-9.68,8.37-18.21,18.31-18.21h29.28c8.15,0,14.66-6.71,14.66-14.9V16.44c0-7.94-6.7-13.91-14.66-15.24 C70.28,0.36,65.06-0.02,60.04,0L60.04,0z M44.19,8.99c3.03,0,5.5,2.51,5.5,5.6c0,3.08-2.47,5.57-5.5,5.57 c-3.04,0-5.5-2.49-5.5-5.57C38.69,11.5,41.15,8.99,44.19,8.99L44.19,8.99z"
+                    />
+                  </defs>
+                  <clipPath id="SVGID_2_">
+                    <use xlink:href="#SVGID_1_" style="overflow: visible" />
+                  </clipPath>
+                  <g class="svg-python--1">
+                    <defs>
+                      <rect id="SVGID_3_" x="-0.75" y="-0.02" width="90.72" height="90.87" />
+                    </defs>
+                    <clipPath id="SVGID_4_">
+                      <use xlink:href="#SVGID_3_" style="overflow: visible" />
+                    </clipPath>
+                    <g style="clip-path: url(#SVGID_4_)">
+                      <image
+                        style="overflow: visible"
+                        width="196"
+                        height="193"
+                        xlink:href="data:image/jpeg;base64,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"
+                        transform="matrix(0.48 0 0 -0.48 -1.8717 91.9867)"
+                      />
+                    </g>
+                  </g>
+                </g>
+                <g>
+                  <defs>
+                    <path
+                      id="SVGID_5_"
+                      d="M93.63,31.33v13.02c0,10.09-8.56,18.59-18.31,18.59H46.04c-8.02,0-14.66,6.86-14.66,14.9v27.91 c0,7.94,6.91,12.62,14.66,14.9c9.28,2.73,18.18,3.22,29.28,0c7.38-2.14,14.66-6.44,14.66-14.9V94.58H60.69v-3.72h29.28h14.66 c8.52,0,11.69-5.94,14.66-14.86c3.06-9.18,2.93-18.01,0-29.79c-2.11-8.48-6.13-14.86-14.66-14.86H93.63L93.63,31.33z M77.16,102.02c3.04,0,5.5,2.49,5.5,5.57c0,3.09-2.46,5.6-5.5,5.6c-3.03,0-5.5-2.51-5.5-5.6 C71.66,104.51,74.13,102.02,77.16,102.02L77.16,102.02z"
+                    />
+                  </defs>
+                  <clipPath id="SVGID_6_">
+                    <use xlink:href="#SVGID_5_" style="overflow: visible" />
+                  </clipPath>
+                  <g class="svg-python--2">
+                    <defs>
+                      <rect id="SVGID_7_" x="31.38" y="31.33" width="90.97" height="92.53" />
+                    </defs>
+                    <clipPath id="SVGID_8_">
+                      <use xlink:href="#SVGID_7_" style="overflow: visible" />
+                    </clipPath>
+                    <g style="clip-path: url(#SVGID_8_)">
+                      <image
+                        style="overflow: visible"
+                        width="196"
+                        height="197"
+                        xlink:href="data:image/jpeg;base64,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 vH2/m7wfn4X/2Q=="
+                        transform="matrix(0.48 0 0 -0.48 30.2589 125.0428)"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <!-- SQL SVG -->
+          <div class="tech">
+            <svg
+              class="svg-tech svg-sql"
+              id="Layer_1"
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 122.88 122.88"
+            >
+              <defs>
+                <style>
+                  .svg-sql--1 {
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <title>data-management</title>
+              <path
+                class="svg-sql--1"
+                d="M112.21,67.94l4.42,4.42a3,3,0,0,1,0,4.23l-3.56,3.56A23.78,23.78,0,0,1,115.28,86h4.61a3,3,0,0,1,3,3v6.25a3,3,0,0,1-3,3h-5a23.63,23.63,0,0,1-2.6,5.72l3.26,3.26a3,3,0,0,1,0,4.24l-4.42,4.42a3,3,0,0,1-4.23,0l-3.56-3.56a24,24,0,0,1-5.9,2.21v4.61a3,3,0,0,1-3,3H88.16a3,3,0,0,1-3-3v-5a24,24,0,0,1-5.72-2.61l-3.27,3.26a3,3,0,0,1-4.23,0l-4.42-4.42a3,3,0,0,1,0-4.23l3.56-3.56a23.54,23.54,0,0,1-2.21-5.89H64.26a3,3,0,0,1-3-3V87.45a3,3,0,0,1,3-3h5a23.73,23.73,0,0,1,2.61-5.73l-3.27-3.26a3,3,0,0,1,0-4.23l4.42-4.42a3,3,0,0,1,4.23,0l3.57,3.56a23.83,23.83,0,0,1,5.89-2.21V63.56a3,3,0,0,1,3-3H96a3,3,0,0,1,3,3v5a23.55,23.55,0,0,1,5.73,2.61L108,67.94a3,3,0,0,1,4.24,0ZM18,27.19c8.26,2.76,19.76,4.46,32.53,4.46S74.83,30,83.09,27.19c7.25-2.42,11.73-5.35,11.73-8.22s-4.48-5.79-11.73-8.21C74.83,8,63.33,6.29,50.56,6.29S26.29,8,18,10.76C2.65,15.89,2.22,21.91,18,27.19ZM49.18,95c-12.87-.12-24.55-1.93-33.14-4.8a39.87,39.87,0,0,1-9.68-4.55v18.85c.57,2.67,4.92,5.36,11.67,7.61,8.26,2.76,19.76,4.47,32.53,4.47,2.15,0,4.27,0,6.34-.15a15.28,15.28,0,0,0,2,2.53l0,0,3.45,3.44c-3.8.32-7.77.49-11.85.49-13.41,0-25.62-1.84-34.52-4.81-4.69-1.56-16-6.71-16-12.86v-2Q.07,61.09,0,19C0,13.1,6.13,8.12,16,4.81,24.94,1.84,37.15,0,50.56,0S76.18,1.84,85.08,4.81,100,12.22,101,17.41a3.11,3.11,0,0,1,.18,1.06V49.33A15,15,0,0,0,96,48.42H94.81a1.85,1.85,0,0,0,0-.23h0V28.52a40.15,40.15,0,0,1-9.78,4.62C76.18,36.11,64,38,50.56,38S24.94,36.11,16,33.14a39.87,39.87,0,0,1-9.68-4.56v20.2c.57,2.68,4.92,5.37,11.67,7.62,8.26,2.76,19.76,4.47,32.53,4.47,4.09,0,8.06-.18,11.83-.51L60.72,62c-.23.2-.45.4-.67.62A15,15,0,0,0,57,67c-2.11.09-4.27.14-6.45.14-13.41,0-25.62-1.84-34.52-4.81A39.87,39.87,0,0,1,6.36,57.8V76.65C6.93,79.32,11.28,82,18,84.26c8,2.66,18.9,4.34,31.09,4.46v5c0,.44,0,.88.06,1.31Zm42.9-15.93a12.29,12.29,0,1,1-12.3,12.29,12.29,12.29,0,0,1,12.3-12.29Z"
+              />
+            </svg>
+          </div>
+          <!-- TODO:: NEXT SVG -->
+        </div>
+      </section>
+      <svg
+        class="svg-down"
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        width="512"
+        height="298"
+        shape-rendering="geometricPrecision"
+        text-rendering="geometricPrecision"
+        image-rendering="optimizeQuality"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        viewBox="0 0 512 298.04"
+      >
+        <a href="#work">
+          <path
+            fill-rule="nonzero"
+            d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"
+          />
+        </a>
+      </svg>
+      <!-- My Work Section -->
+      <section id="work" class="my-work hidden">
+        <h2 class="my-work__heading heading">My Work</h2>
+        <div class="my-work-main">
+          <div class="my-work__project">
+            <a href="http://unbridledproperty.com/" target="_blank" rel="noopener noreferrer"
+              ><div class="my-work__project-pic"></div
+            ></a>
 
-        </section>
-<!-- My Work Section -->
-        <section id="work" class="my-work hidden" >
-            <h2 class="my-work__heading heading">My Work</h2>
-            <div class="my-work-main">
-                <div class="my-work__project">
-                    <a href="http://unbridledproperty.com/" target="_blank" rel="noopener noreferrer"><div class="my-work__project-pic"></div></a>
-                    
-                    <div class="my-work__project-text">
-                        <p>This is a fully responsive site I designed and built for a construction development company out of Danville, KY. They were looking for a clean and minimalistic feel. This site was built with Sass and compressed using a production build process. It is currently being used by my client to represent their business online. Click Here to Visit</p>
-                    </div>
-                </div>
+            <div class="my-work__project-text">
+              <p>
+                This is a fully responsive site I designed and built for a construction development
+                company out of Danville, KY. They were looking for a clean and minimalistic feel.
+                This site was built with Sass and compressed using a production build process. It is
+                currently being used by my client to represent their business online. Click Here to
+                Visit
+              </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <a href="#">
+        <svg
+          class="svg-down svg-down-3 hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          xml:space="preserve"
+          width="512"
+          height="298"
+          shape-rendering="geometricPrecision"
+          text-rendering="geometricPrecision"
+          image-rendering="optimizeQuality"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          viewBox="0 0 512 298.04"
+        >
+          <path
+            fill-rule="nonzero"
+            d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"
+          />
+        </svg>
+      </a>
 
-                <a href="#">
-                <svg class="svg-down svg-down-3 hidden" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="298" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"/></svg>
-            </a>
-
-        </section>
-        <!-- Contact Section -->
-        <section id="contact" class="contact hidden">
-            <h2 class="heading">Contact</h2>
-        </section>
+      <!-- Contact Section -->
+      <section id="contact" class="contact hidden">
+        <h2 class="heading">Contact</h2>
+      </section>
     </div>
-    
-</body>
+  </body>
 </html>

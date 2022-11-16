@@ -1,6 +1,6 @@
 .about {
   //min-height: 85vh;
-  min-height: var(--section-height);
+  min-height: var(--section-min-height);
   margin-bottom: var(--margin-bottom-section);
 
   &-heading {
@@ -83,6 +83,48 @@
   position: relative;
 }
 
-.svg-down-2 {
 
+//TECH USED 
+
+.tech-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 6rem 0;
+}
+
+.tech-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 8rem);
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tech {
+  position: relative;
+}
+
+//SVGs
+.svg-tech {
+  height: 7rem;
+  display: block;
+  margin: 0 auto;
+  transition: all .2s ease-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+
+}
+
+.svg-express {
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
 }

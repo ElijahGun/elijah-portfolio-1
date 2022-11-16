@@ -5,7 +5,6 @@
   &-container {
     min-height: var(--section-height);
     position: relative;
-    margin-bottom: var(--margin-bottom-section);
   }
 
   &-textbox {
@@ -95,15 +94,7 @@
   }
 }
 
-.svg-down {
-  height: 2rem;
-  fill: var(--color-green-primary);
-  cursor: pointer;
-  position: absolute;
-  bottom: 11rem;
-  width: 100%;
 
-}
 
 .svg-down-1 {
   opacity: 0;

@@ -1,7 +1,7 @@
 
 
 .my-work {
-    height: var(--section-height);
+    min-height: var(--section-min-height);
     margin-bottom: var(--margin-bottom-section);
 
     &__heading {
