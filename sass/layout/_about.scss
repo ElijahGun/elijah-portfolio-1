@@ -1,5 +1,6 @@
 .about {
-  min-height: 85vh;
+  //min-height: 85vh;
+  min-height: var(--section-height);
   margin-bottom: var(--margin-bottom-section);
 
   &-heading {
@@ -83,5 +84,5 @@
 }
 
 .svg-down-2 {
-  bottom: -10rem;
+
 }

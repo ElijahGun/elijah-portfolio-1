@@ -3,9 +3,9 @@
 .header {
 
   &-container {
-    height: 85vh;
+    min-height: var(--section-height);
     position: relative;
-    margin-bottom: 15vh;
+    margin-bottom: var(--margin-bottom-section);
   }
 
   &-textbox {
@@ -96,12 +96,12 @@
 }
 
 .svg-down {
-  //transform: scale(.07);
   height: 2rem;
   fill: var(--color-green-primary);
   cursor: pointer;
   position: absolute;
-  bottom: 6rem;
+  bottom: 11rem;
+  width: 100%;
 
 }
 

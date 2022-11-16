@@ -1,6 +1,8 @@
 
 
 .my-work {
+    height: var(--section-height);
+    margin-bottom: var(--margin-bottom-section);
 
     &__heading {
         font-size: 4rem;
@@ -13,17 +15,22 @@
     }
 
     &__project {
-        display: flex;
+
         justify-content: space-between;
 
         &-pic{
-            background-color: greenyellow;
-            height: 20rem;
-            width: 40rem;
+            background-image: url(../../assets/up.png);
+            object-fit: cover;
+            width: 43rem;
+            aspect-ratio: 5/3.5;
+            border-radius: 5px;
+            float: left;
+            margin-right: 4rem;
+            box-shadow: 0 .5rem 1rem var(--color-green-primary);
         }
 
         &-text {
-            padding: 5rem;
+            
         }
     }
 }
