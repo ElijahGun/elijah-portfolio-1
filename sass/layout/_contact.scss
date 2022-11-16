@@ -1,0 +1,46 @@
+
+
+.contact {
+
+    &-heading {
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+
+    &-grid {
+        //background-color: aqua;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 7.5rem);
+        gap: 5rem;
+        justify-content: center;
+        margin-bottom: 6rem;
+    }
+
+    &-icon {
+       
+    }
+
+    &-svg {
+        height: 8rem;
+        fill: var(--color-green-primary);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &-credit {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+}
+
+//fill for linkedin svg background
+.linkedin--1 {
+    fill: var(--color-green-primary) !important;
+}
+
+.linkedin--2 {
+    fill: var(--color-background) !important;
+}
