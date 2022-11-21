@@ -15,8 +15,16 @@
     }
 
     &__project {
+        padding-bottom: 3rem;
+        border-bottom: 2px solid var(--color-green-primary);
+        min-height: 34rem;
+        margin-bottom: 3.5rem;
 
-        justify-content: space-between;
+        &--heading {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
 
         &-pic{
             background-image: url(../../assets/up.png);
@@ -32,11 +40,24 @@
             &:hover {
                 transform: scale(1.05) skew(0.01turn, -2deg);
             }
+
+            &--sk8mate {
+                background-image: url(../../assets/sk8mate.png);
+                background-size: cover;
+                float: right;
+                margin-right: 0; 
+            }
+
+            &--mulch {
+                background-image: url(../../assets/mulchbucket.png);
+                background-size: cover;
+            }
         }
 
         &-text {
             
         }
+
     }
 
     &__link {

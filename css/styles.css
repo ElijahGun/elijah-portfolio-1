@@ -386,7 +386,15 @@ p {
   margin-bottom: var(--margin-bottom-primary);
 }
 .my-work__project {
-  justify-content: space-between;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid var(--color-green-primary);
+  min-height: 34rem;
+  margin-bottom: 3.5rem;
+}
+.my-work__project--heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .my-work__project-pic {
   background-image: url(../../assets/up.png);
@@ -401,6 +409,16 @@ p {
 }
 .my-work__project-pic:hover {
   transform: scale(1.05) skew(0.01turn, -2deg);
+}
+.my-work__project-pic--sk8mate {
+  background-image: url(../../assets/sk8mate.png);
+  background-size: cover;
+  float: right;
+  margin-right: 0;
+}
+.my-work__project-pic--mulch {
+  background-image: url(../../assets/mulchbucket.png);
+  background-size: cover;
 }
 .my-work__link:visited, .my-work__link:link, .my-work__link:active {
   text-decoration: underline;
