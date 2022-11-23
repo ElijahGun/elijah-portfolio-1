@@ -23,5 +23,11 @@
   &-item {
     list-style: none;
     font-size: 2.5rem;
+
+
+
+    @media screen and (max-width: 460px) {
+      font-size: 2.25rem;
+    }
   }
 }
